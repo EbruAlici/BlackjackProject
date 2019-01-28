@@ -49,7 +49,7 @@ public class Hand {
 
 	@Override
 	public String toString() {
-		return "Hand [cards=" + cards + "]";
+		return "[cards=" + cards + "]";
 	}
 
 	@Override

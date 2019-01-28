@@ -47,8 +47,8 @@ public class BlackjackApp {
 		playerHand.addCard(gameDeck.dealCard());
 
 		do {
-			System.out.println("your hand " + playerHand);
-			System.out.println("dealer hand " + dealerHand);
+			System.out.println("Your starting hand is " + playerHand);
+			System.out.println("Dealerstarting hand is " + dealerHand);
 			System.out.println("Enter 1 to hit or 2 to stay? ");
 			hitOrStay = keyboard.nextInt();
 			if (hitOrStay == 1) {
@@ -66,18 +66,20 @@ public class BlackjackApp {
 			}
 
 		}
+		System.out.println("The dealers final hand is: " + dealerHand);
+		System.out.println("Your final hand is " + playerHand);
 		if (playerHand.getHandValue() > 21) {
-			System.out.println("You lose ");
+			System.out.println("You have over 21. You lose. ");
 
 		} else if (dealerHand.getHandValue() > 21) {
-			System.out.println("You win ");
+			System.out.println("The dealer is over 21. You win. ");
 		} else if (playerHand.getHandValue() == dealerHand.getHandValue()) {
-			System.out.println("Player loses");
+			System.out.println("The dealer has 21 points. You lose.");
 		}else if(playerHand.getHandValue() > dealerHand.getHandValue()) {
-			System.out.println("Player wins");
+			System.out.println("You beat the dealer score. " );
 			
 		}else {
-			System.out.println("Dealer wins");
+			System.out.println("Dealer beat your score. ");
 		}
 		
 	}
