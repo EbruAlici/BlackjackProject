@@ -16,4 +16,4 @@ Blackjack is a card game where there are two players. Each player gets two cards
 * Enumerated Types
 
 * 
-i[blackjack picture](https://nj-casino.goldennuggetcasino.com/media/uploads/games/game_icons_mobile/black-jack-igt-mobile_large.png)
+![blackjack picture](https://nj-casino.goldennuggetcasino.com/media/uploads/games/game_icons_mobile/black-jack-igt-mobile_large.png)
