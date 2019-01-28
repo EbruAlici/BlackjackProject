@@ -25,4 +25,9 @@ public enum Suit {
 		return name;
 	}
 
+	public boolean compareTo(Rank rank) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
