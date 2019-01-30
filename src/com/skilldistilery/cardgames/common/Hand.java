@@ -1,10 +1,8 @@
 package com.skilldistilery.cardgames.common;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
-import com.skilldistillery.cardgames.blackjack.BlackJackHand;
 
 public class Hand {
 	private List<Card> cards = new ArrayList<>();
